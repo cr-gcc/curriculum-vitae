@@ -1,11 +1,9 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CVController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CVController::class, 'index'])->name('cv');
 /*
 Route::get('/dashboard', function () {
     return view('dashboard');
