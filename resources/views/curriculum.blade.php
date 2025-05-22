@@ -7,8 +7,11 @@
     <div x-data="">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
             <div class="overflow-hidden">
-                <div class="p-6 bg-white">
+                <div class="p-6 bg-gray-300">
+                    @include('layouts.plantilla')
                     
+
+
                 </div>
             </div>
         </div>
