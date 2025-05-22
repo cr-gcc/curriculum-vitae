@@ -1,6 +1,6 @@
 <div class="font-source mx-auto bg-white text-black" style="width: 794px; height: 1123px; padding: 8px;">
     <!-- Header -->
-    <div class="bg-gray-900 text-white px-6 pt-6 items-center">
+    <div class="bg-gray-900 text-white px-6 pt-3 items-center">
         <div class="grid grid-cols-3">
             <div class="flex items-end col-span-2">
                 <h1 class="text-3xl uppercase">Cristóbal Gutiérrez Chávez</h1>
@@ -15,14 +15,13 @@
             </div>    
         </div>
     </div>
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col md:flex-row text-justify">
         <!-- Columna izquierda -->
         <div class="w-full md:w-3/5 p-2">
             <section class="mb-2">
                 <h2 class="text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Perfil Profesional</h2>
                 <p class="mt-1 text-sm">
-                    5 años de experiencia dentro de los sectores educativo, bancario, construcción, logística, etc. 
-                    Busco colaborar en proyectos tanto individual como grupalmente, que me estimulen y reten. Siempre abierto al cambio, aprendizaje y actualización de nuevas tecnologías y habilidades.
+                    Profesional con 5 años de experiencia en los sectores educativo, bancario, construcción y logística. Enfocado en aportar valor tanto en proyectos individuales como en equipo. Abierto al cambio, con constante disposición para aprender y adaptarse a nuevas tecnologías y habilidades.
                 </p>
             </section>
             <section>
@@ -146,6 +145,12 @@
                 <h3 class="font-bold text-sm">LMS</h3>
                 <ul class="mb-1 list-disc list-inside text-sm">
                     <li>Moodle</li>
+                </ul>
+            </section>
+            <section class="mb-2">
+                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Repositorio</h2>
+                <ul class="list-disc list-inside text-sm">
+                    <li>https://github.com/cr-gcc</li>
                 </ul>
             </section>
             <section class="mb-2">
