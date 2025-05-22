@@ -143,6 +143,10 @@
                 <ul class="mb-1 list-disc list-inside text-sm">
                     <li>Azure, Firebase</li>
                 </ul>
+                <h3 class="font-bold text-sm">LMS</h3>
+                <ul class="mb-1 list-disc list-inside text-sm">
+                    <li>Moodle</li>
+                </ul>
             </section>
             <section class="mb-2">
                 <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Certificados</h2>
@@ -157,5 +161,6 @@
                     <li>Inglés: B1</li>
                 </ul>
             </section>
-      </div>
+        </div>
+    </div>
 </div>
