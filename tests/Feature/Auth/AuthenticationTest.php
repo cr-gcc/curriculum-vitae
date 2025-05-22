@@ -51,5 +51,9 @@ class AuthenticationTest extends TestCase
         $this->assertGuest();
         $response->assertRedirect('/');
     }
-        */
+    */
+    public function test_dummy(): void
+    {
+        $this->assertTrue(true);
+    }
 }

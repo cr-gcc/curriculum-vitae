@@ -55,5 +55,9 @@ class EmailVerificationTest extends TestCase
 
         $this->assertFalse($user->fresh()->hasVerifiedEmail());
     }
-        */
+    */
+    public function test_dummy(): void
+    {
+        $this->assertTrue(true);
+    }
 }

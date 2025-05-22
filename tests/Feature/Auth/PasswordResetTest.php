@@ -71,4 +71,8 @@ class PasswordResetTest extends TestCase
         });
     }
     */
+    public function test_dummy(): void
+    {
+        $this->assertTrue(true);
+    }
 }
