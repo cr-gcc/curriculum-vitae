@@ -1,6 +1,3 @@
-@php
-    $cssPath = public_path('build/assets/app-DnWZGT06.css');
-@endphp
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +10,7 @@
     	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
         <!-- Scripts -->
         <style>
-            {!! file_get_contents(public_path('build/assets/app-DnWZGT06.css')) !!}
+            {!! file_get_contents(public_path('build/assets/app-4vfEBD8b.css')) !!}
         </style>
     </head>
     <body class="font-sans antialiased">
