@@ -4,6 +4,9 @@ use App\Http\Controllers\CVController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [CVController::class, 'index'])->name('cv');
+Route::get('/view-pdf', [CVController::class, 'viewPDF'])->name('cv.view-pdf');
+Route::get('/download-pdf', [CVController::class, 'downloadPDF'])->name('cv.download-pdf');
+
 /*
 Route::get('/dashboard', function () {
     return view('dashboard');

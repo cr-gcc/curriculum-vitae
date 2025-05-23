@@ -18,29 +18,31 @@
                     </button>
                 </div>
             </div>
-
             <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-            <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-neutral-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
+            <div x-cloak :class="[isOpenLanguajes ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-neutral-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
                 <div class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-                    <a href="#" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <a href="{{ route('cv.view-pdf') }}" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Visualización</span>
+                    </a>
+                    <a href="{{ route('cv.download-pdf') }}" class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
                         <i class="fa-solid fa-print"></i>
                         <span>Imprimir</span>
                     </a>
-                
-                    <div x-data="{ isOpen: true }" class="relative inline-block ">
+                    <div x-data="{ isOpenLanguajes: false }" class="relative inline-block ">
                         <!-- Dropdown toggle button -->
-                        <button @click="isOpen = !isOpen"
-    class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center space-x-2">
-    <i class="fa-solid fa-globe"></i>
-    <span>Idiomas</span>
-    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z" fill="currentColor"/>
-    </svg>
-</button>
+                        <button @click="isOpenLanguajes = !isOpenLanguajes"
+                            class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center space-x-2">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Idiomas</span>
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 15.713L18.01 9.70299L16.597 8.28799L12 12.888L7.40399 8.28799L5.98999 9.70199L12 15.713Z" fill="currentColor"/>
+                            </svg>
+                        </button>
 
                         <!-- Dropdown menu -->
-                        <div x-show="isOpen" 
-                            @click.away="isOpen = false"
+                        <div x-show="isOpenLanguajes" 
+                            @click.away="isOpenLanguajes = false"
                             x-transition:enter="transition ease-out duration-100"
                             x-transition:enter-start="opacity-0 scale-90"
                             x-transition:enter-end="opacity-100 scale-100"

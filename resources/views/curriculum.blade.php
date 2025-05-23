@@ -9,9 +9,6 @@
             <div class="overflow-hidden">
                 <div class="p-6 bg-gray-300">
                     @include('layouts.plantilla')
-                    
-
-
                 </div>
             </div>
         </div>

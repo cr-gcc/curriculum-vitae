@@ -1,6 +1,6 @@
-<div class="font-source mx-auto bg-white text-black" style="width: 794px; height: 1123px; padding: 8px;">
+<div class="font-source mx-auto bg-white text-black" style="width: 794px; height: 1123px;">
     <!-- Header -->
-    <div class="bg-gray-900 text-white px-6 pt-3 items-center">
+    <div class="bg-gray-900 text-white px-6 pt-6 pb-2 items-center">
         <div class="grid grid-cols-3">
             <div class="flex items-end col-span-2">
                 <h1 class="text-3xl uppercase">Cristóbal Gutiérrez Chávez</h1>
@@ -15,18 +15,18 @@
             </div>    
         </div>
     </div>
-    <div class="flex flex-col md:flex-row text-justify">
+    <div class="mt-1 flex flex-col md:flex-row text-justify">
         <!-- Columna izquierda -->
-        <div class="w-full md:w-3/5 p-2">
-            <section class="mb-2">
+        <div class="w-full md:w-3/5 p-4">
+            <section class="mb-3">
                 <h2 class="text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Perfil Profesional</h2>
-                <p class="mt-1 text-sm">
+                <p class="mt-2 text-sm">
                     Profesional con 5 años de experiencia en los sectores educativo, bancario, construcción y logística. Enfocado en aportar valor tanto en proyectos individuales como en equipo. Abierto al cambio, con constante disposición para aprender y adaptarse a nuevas tecnologías y habilidades.
                 </p>
             </section>
             <section>
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Experiencia laboral</h2>
-                <div class="mb-1">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Experiencia laboral</h2>
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Big Move Smart 
                         <span class="text-sm font-normal">| Enero 2022 - Marzo 2025</span>
@@ -34,7 +34,7 @@
                     <p class="italic text-sm">Logística de paquetería.</p>
                     <p class="text-sm">Desarrollador Back-End.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Laureate International Universities 
                         <span class="text-sm font-normal">| Feb 2018 - Dic 2021</span>
@@ -42,7 +42,7 @@
                     <p class="italic text-sm">Procesos coorporativos.</p>
                     <p class="text-sm">Programador full stack.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Envios Pronto - Freelancer 
                         <span class="text-sm font-normal">| Mar 2021 - Dic 2021</span>
@@ -50,7 +50,7 @@
                     <p class="italic text-sm">Servicios de paquetería.</p>
                     <p class="text-sm">Desarrollador full stack.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         UNAM COUS - Freelancer 
                         <span class="text-sm font-normal">| Ago 2020 - Nov 2021</span>
@@ -58,7 +58,7 @@
                     <p class="italic text-sm">Proyectos sustentables.</p>
                     <p class="text-sm">Desarrollador Web.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         UNAM FCA CEDIGEC - Freelancer 
                         <span class="text-sm font-normal">| Sep 2020 - Dic 2025</span>
@@ -66,7 +66,7 @@
                     <p class="italic text-sm">Programa de posgrados en línea.</p>
                     <p class="text-sm">Programador full stackt + Admin de plataforma.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Coordina Grupo Sagma - Freelancer
                         <span class="text-sm font-normal">| Ago 2019 - Nov 2019</span>
@@ -74,7 +74,7 @@
                     <p class="italic text-sm">Infraestructura vial.</p>
                     <p class="text-sm">Programador full stackt + Admin de plataforma.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Banco de México 
                         <span class="text-sm font-normal">| Oct 2017 - Ene 2018</span>
@@ -82,7 +82,7 @@
                     <p class="italic text-sm">Banco central.</p>
                     <p class="text-sm">Analista de información.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         CNBV - Freelancer  
                         <span class="text-sm font-normal">| Oct 2017 - Ene 2018</span>
@@ -90,7 +90,7 @@
                     <p class="italic text-sm">Regulación financiera.</p>
                     <p class="text-sm">Desarrollador Web.</p>
                 </div>
-                <div class="mb-1">
+                <div class="mb-2">
                     <h3 class="font-bold">
                         Unisys de México, S.A. de C.V. 
                         <span class="text-sm font-normal">| Dic 2013 - Dic 2015</span>
@@ -101,15 +101,15 @@
             </section>
         </div>
         <!-- Columna derecha -->
-        <div class="w-full md:w-2/5 p-2">
-            <section class="mb-2">
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Formación Académica</h2>
+        <div class="w-full md:w-2/5 p-4">
+            <section class="mb-3">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Formación Académica</h2>
                 <p class="mb-1 text-sm">
                     Universidad Nacional Autónoma de México <br> Facultad de Ingeniería <br> Licenciatura (2008 – 2015)
                 </p>
             </section>
-            <section class="mb-2">
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Habilidades</h2>
+            <section class="mb-3">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Habilidades</h2>
                 <h3 class="font-bold text-sm">Front-End</h3>
                 <ul class="list-disc list-inside text-sm">
                     <li>HTML5, CSS3, JavaScript</li>
@@ -147,20 +147,20 @@
                     <li>Moodle</li>
                 </ul>
             </section>
-            <section class="mb-2">
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Repositorio</h2>
+            <section class="mb-3">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Repositorio</h2>
                 <ul class="list-disc list-inside text-sm">
                     <li>https://github.com/cr-gcc</li>
                 </ul>
             </section>
-            <section class="mb-2">
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Certificados</h2>
+            <section class="mb-3">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Certificados</h2>
                 <ul class="list-disc list-inside text-sm">
                     <li>SCRUMStudy - Accreditation Body for Scrum Agile 2020</li>
                 </ul>
             </section>
-            <section class="mb-2">
-                <h2 class="mb-1 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Información adicional</h2>
+            <section class="mb-3">
+                <h2 class="mb-2 text-lg font-semibold border-b-2 border-gray-400 uppercase tracking-widest">Información adicional</h2>
                 <ul class="list-disc list-inside text-sm">
                     <li>Fecha de nacimiento: 26-07-1990</li>
                     <li>Inglés: B1</li>
